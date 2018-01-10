@@ -1,0 +1,23 @@
+{
+  "name": "mean-seed",
+  "version": "1.0.0",
+  "description": "MEAN stack seed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Checkley/MEAN-Seed.git"
+  },
+  "author": "Tom Checkley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tom-Checkley/MEAN-Seed/issues"
+  },
+  "homepage": "https://github.com/Tom-Checkley/MEAN-Seed#readme",
+  "dependencies": {
+    "classlist.js": "^1.1.20150312",
+    "web-animations-js": "^2.3.1"
+  }
+}
