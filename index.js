@@ -29,11 +29,11 @@ const port = process.env.PORT || 8080;
 //   origin: 'http://localhost:4200'
 // }));
 // parse application/x-www-form-urlencoded 
-app.use(bodyParser.urlencoded({ extended: false }))
-  // parse application/json 
+app.use(bodyParser.urlencoded({ extended: false }));
+// parse application/json 
 app.use(bodyParser.json());
 // Set static directory for frontend
-app.use(express.static(__dirname + '/dist/public'));
+app.use(express.static(__dirname + '/public'));
 
 // Pull in public routes
 app.use('/public', public);
