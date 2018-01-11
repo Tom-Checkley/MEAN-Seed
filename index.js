@@ -22,12 +22,12 @@ mongoose.connect(config.uri, { useMongoClient: true }, (err) => {
 });
 
 // Set Port
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 // cors
-app.use(cors({
-  origin: 'http://localhost:4200'
-}));
+// app.use(cors({
+//   origin: 'http://localhost:4200'
+// }));
 // parse application/x-www-form-urlencoded 
 app.use(bodyParser.urlencoded({ extended: false }))
   // parse application/json 
