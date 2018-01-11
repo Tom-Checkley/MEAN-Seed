@@ -5,8 +5,6 @@
 //////////////////////////////////////////////////
 
 const User = require('../models/user');
-// const Testimonial = require('../models/testimonials');
-// const Blog = require('../models/blog');
 const config = require('../config/database');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
