@@ -1,0 +1,20 @@
+<div class="page">
+  <h1 class="page__heading">Register</h1>
+  <form class="form form--register" (submit)="onRegisterSubmit()">
+    <div class="form__control">
+      <label for="name" class="form__label">Name</label>
+      <input id="name" name="name" type="text" class="form__input" placeholder="Name" [(ngModel)]="name">
+    </div>
+    <div class="form__control">
+      <label for="password" class="form__label">Password</label>
+      <input id="password" name="password" type="password" class="form__input" placeholder="Password" [(ngModel)]="password">
+    </div>
+    <div class="form__control">
+      <label for="confirm" class="form__label">Confirm</label>
+      <input id="confirm" type="password" name="confirm" class="form__input" placeholder="Confirm Password" [(ngModel)]="confirm">
+    </div>
+    <div class="form__control">
+      <input value="submit" type="submit" class="form__submit btn">
+    </div>
+  </form>
+</div>
